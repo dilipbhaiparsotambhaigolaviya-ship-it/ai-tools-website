@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NeuroAI Tools</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#020617,#0f172a,#1e293b);
+color:white;
+}
+
+/* Navbar */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 50px;
+background:#020617;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#22c55e;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+/* Hero */
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero span{
+color:#22c55e;
+}
+
+.hero p{
+opacity:0.8;
+margin-top:10px;
+}
+
+.hero button{
+margin-top:20px;
+padding:14px 30px;
+background:#22c55e;
+border:none;
+border-radius:8px;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+/* Tools */
+
+.tools{
+padding:60px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.tool{
+background:#1e293b;
+padding:30px;
+border-radius:12px;
+text-align:center;
+transition:0.3s;
+}
+
+.tool:hover{
+transform:translateY(-10px);
+background:#334155;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+margin-top:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">NeuroAI</div>
+
+<div>
+<a href="#">Home</a>
+<a href="#">Tools</a>
+<a href="#">Pricing</a>
+<a href="#">Login</a>
+</div>
+
+</nav>
+
+
+<section class="hero">
+
+<h1>Future of <span>AI Tools</span></h1>
+
+<p>Create images, videos and content using AI</p>
+
+<button>Start Using AI</button>
+
+</section>
+
+
+<section class="tools">
+
+<div class="tool">
+<h3>AI Image Generator</h3>
+<p>Create images from text</p>
+</div>
+
+<div class="tool">
+<h3>AI Video Generator</h3>
+<p>Create videos automatically</p>
+</div>
+
+<div class="tool">
+<h3>AI Text Writer</h3>
+<p>Generate blogs & scripts</p>
+</div>
+
+<div class="tool">
+<h3>AI Logo Maker</h3>
+<p>Create logos instantly</p>
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 NeuroAI Tools
+
+</footer>
+
+</body>
+</html>
