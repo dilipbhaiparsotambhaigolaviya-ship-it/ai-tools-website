@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+
 <html>
-<head>
+<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4283088405130729"
+     crossorigin="anonymous"></script>
 <title>NeuroAI Tools</title>
 
 <style>
@@ -160,4 +161,5 @@ margin-top:50px;
 </footer>
 
 </body>
+
 </html>
